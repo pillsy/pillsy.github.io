@@ -77,7 +77,7 @@ revealed to be geometric series. As long as $ -1 < x < 1 $,
 
 $$ \sum_{k = 0}^\infty x^k = \frac{1}{1-x} $$
 
-Now the harmonic series is just a simple, finite product!
+Now the harmonic series is just a simple, finite product![^euler]
 
 $$ \prod_{j = 1}^N \frac{1}{1 - 1/p_j } $$
 
@@ -133,6 +133,10 @@ business.
     and over agin, no matter how confusing it is, mathematicians also
     have an [annoying habit of indexing from one][index].
         
+[^euler]: This is called the ["Euler product"][euler], after Leonhard 
+    Euler, who discovered it. I'm pretty sure the second proof in this
+    post is also due to Euler. 
+
 [euclid]: http://primes.utm.edu/notes/proofs/infinite/euclids.html
 
 [fta]: http://mathworld.wolfram.com/FundamentalTheoremofArithmetic.html
@@ -140,3 +144,5 @@ business.
 [monoid]: https://apocalisp.wordpress.com/2010/06/14/on-monoids/
 
 [index]: http://www.cs.utexas.edu/users/EWD/ewd08xx/EWD831.PDF
+
+[euler]: https://en.wikipedia.org/wiki/Riemann_zeta_function#Euler_product_formula
