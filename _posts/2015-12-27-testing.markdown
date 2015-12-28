@@ -5,7 +5,9 @@ date:   2015-12-27 22:01:03
 categories: testing
 ---
 
-$$ a^2 + b^2 = c^2 $$
+$$
+a^2 + b^2 = c^2
+$$
 
 {% highlight ruby %}
 def print_hi(name)
